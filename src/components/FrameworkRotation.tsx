@@ -1,3 +1,4 @@
+"use client";
 import { Framework, assets } from "@/data";
 import { AnimatePresence, motion } from "framer-motion";
 

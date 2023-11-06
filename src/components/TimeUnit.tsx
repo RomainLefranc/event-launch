@@ -15,6 +15,7 @@ function TimeUnit({ currentFramework, label, value }: Props) {
         <div className="relative h-32 w-48 overflow-hidden">
           <AnimatePresence initial={false}>
             <motion.div
+              suppressHydrationWarning={true}
               key={value}
               initial={{
                 y: "-100%",

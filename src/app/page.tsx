@@ -4,7 +4,6 @@ import Cursor from "@/components/Cursor";
 import FrameworkRotation from "@/components/FrameworkRotation";
 import { FRAMEWORKS, Framework, assets } from "@/data";
 import { cn } from "@/utils/tailwind";
-import { AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 
